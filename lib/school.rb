@@ -1,4 +1,4 @@
 class School
+  roster = {}
 end
 
-roster = {}
