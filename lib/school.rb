@@ -1,9 +1,10 @@
 class School
   def initialize(name)
     @name = name
+    roster = Hash.new
   end
   
-  roster = Hash.new
+  
   
   def add_student(name, grade)
   roster[grade] = []
