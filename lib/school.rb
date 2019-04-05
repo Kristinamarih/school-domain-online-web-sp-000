@@ -12,7 +12,8 @@ class School
   end
   
   def grade(grade)
-    roster.find do |
+    roster.find do |a, b|
+      
 end
 
 
