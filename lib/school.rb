@@ -20,9 +20,10 @@ class School
   end
   
   def sort
-    roster.sort do |a, b|
-      
-    
+    roster.sort_by do |a, b|
+      b 
+    end
+  end
 end
 
 
