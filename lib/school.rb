@@ -6,5 +6,5 @@ class School
   roster[grade] << name  
   roster => {grade => [name]}
 end
-
+end
 
