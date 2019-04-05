@@ -14,7 +14,7 @@ class School
   def grade(grade)
     roster.find do |a, b|
       if grade == a 
-        b 
+       return b 
       end
     end
   end
