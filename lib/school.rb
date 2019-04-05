@@ -17,6 +17,7 @@ class School
         b 
       end
     end
+  end
 end
 
 
